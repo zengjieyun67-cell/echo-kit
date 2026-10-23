@@ -1,0 +1,12 @@
+{
+  "name": "echo-kit",
+  "version": "0.1.0",
+  "description": "Browser rhythm-game toolkit: song beat/structure analysis, audio-synced music clock, timestamped input, latency calibration, judging and game-feel helpers.",
+  "license": "MIT",
+  "author": "Jieyun Zeng",
+  "type": "module",
+  "main": "src/index.ts",
+  "files": ["src", "electron-template", "README.md", "LICENSE"],
+  "scripts": { "check": "tsc --noEmit -p ." },
+  "devDependencies": { "typescript": "^5.9.0" }
+}
